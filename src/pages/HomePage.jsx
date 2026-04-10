@@ -104,7 +104,14 @@ export default function HomePage() {
 
 const styles = {
   page: { minHeight: '100vh' },
-  hero: { padding: '1.8rem 1rem 1.2rem', borderBottom: '1px solid #334155', background: '#111827' },
+  hero: {
+    padding: '1.8rem 1rem 1.2rem',
+    borderBottom: '1px solid #334155',
+    backgroundImage:
+      "linear-gradient(rgba(17, 24, 39, 0.72), rgba(17, 24, 39, 0.72)), url('https://s0.rbk.ru/v6_top_pics/media/img/0/73/347151579745730.webp')",
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  },
   heroGlow: { display: 'none' },
   heroTitle: {
     fontSize: '2rem',
